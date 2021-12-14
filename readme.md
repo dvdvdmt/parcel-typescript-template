@@ -34,3 +34,11 @@ miro.board.ui.openModal(iFrameURL, width, height)
 to open the web page.
 
 To store a task id the developer can use [meta data](https://developers.miro.com/reference/application-metadata#read) of the widget or save it in the one of the custom fields.
+
+
+## How to run the app locally?
+1. In `client/app-card-web-plugin` run  
+`npm i && npm start`
+2. Expose localhost:1234 with localtunnel  
+`npx localtunnel --port 1234 --subdomain <your-sub-domain>`
+3. Use generated address `https://<your-sub-domain>.loca.lt` to set up the [application instruction](https://developers.miro.com/docs/getting-started).

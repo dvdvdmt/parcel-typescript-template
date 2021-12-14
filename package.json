@@ -4,11 +4,11 @@
   "description": "JavaScript and TypeScript example starter project",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel src/index.html --no-cache",
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
-    "prettier": "^2.4.1",
-    "parcel": "^2.0.0"
+    "parcel": "^2.0.1",
+    "prettier": "^2.5.1"
   }
 }
