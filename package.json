@@ -8,8 +8,8 @@
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
-    "prettier": "^2.6.2"
+    "@parcel/transformer-sass": "^2.10.1",
+    "parcel": "^2.10.1",
+    "prettier": "^3.0.3"
   }
 }
